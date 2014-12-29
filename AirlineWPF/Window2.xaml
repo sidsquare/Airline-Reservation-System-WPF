@@ -1,0 +1,79 @@
+﻿<Window x:Class="AirlineWPF.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Sign Up" Height="567" Width="609" >
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                <GradientStop Color="#FFE2E6CE" Offset="0.54"/>
+                <GradientStop Color="#FFA0D0DC" Offset="0.021"/>
+                <GradientStop Color="#FFA0D0DC" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Grid HorizontalAlignment="Center" Height="465" Margin="240,10,111,61" VerticalAlignment="Center" Width="250">
+            <TextBox x:Name="b1" HorizontalAlignment="Left" TextWrapping="Wrap"  Width="131" Margin="25,28,0,413" KeyboardNavigation.TabIndex="0"/>
+            <TextBox x:Name="b2" HorizontalAlignment="Left" TextWrapping="Wrap"  Width="131" Margin="25,78,0,363" KeyboardNavigation.TabIndex="0" />
+            <TextBox x:Name="b3" HorizontalAlignment="Left" TextWrapping="Wrap"  Width="221" Margin="25,128,0,260" KeyboardNavigation.TabIndex="2"/>
+            <TextBox x:Name="b4" Margin="26,225,0,0" HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" VerticalAlignment="Top" Width="131" KeyboardNavigation.TabIndex="3"/>
+            <TextBox x:Name="b5" Margin="26,275,0,0" HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" VerticalAlignment="Top" Width="131" KeyboardNavigation.TabIndex="4"/>
+            <ComboBox x:Name="b6" Margin="26,325,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="131" Height="24" KeyboardNavigation.TabIndex="5">
+                <ComboBoxItem Content="Andaman and Nicobar Islands" KeyboardNavigation.TabIndex="5"/>
+                <ComboBoxItem Content="Andhra Pradesh"/>
+                <ComboBoxItem Content="Arunachal Pradesh"/>
+                <ComboBoxItem Content="Assam"/>
+                <ComboBoxItem Content="Bihar"/>
+                <ComboBoxItem Content="Chandigarh"/>
+                <ComboBoxItem Content="Chhattisgarh"/>
+                <ComboBoxItem Content="Dadra and Nagar Haveli"/>
+                <ComboBoxItem Content="Daman and Diu"/>
+                <ComboBoxItem Content="Delhi"/>
+                <ComboBoxItem Content="Goa"/>
+                <ComboBoxItem Content="Gujarat"/>
+                <ComboBoxItem Content="Haryana"/>
+                <ComboBoxItem Content="Himachal Pradesh"/>
+                <ComboBoxItem Content="Jammu and Kashmir"/>
+                <ComboBoxItem Content="Jharkhand"/>
+                <ComboBoxItem Content="Karnataka"/>
+                <ComboBoxItem Content="Kerala"/>
+                <ComboBoxItem Content="Lakshadweep"/>
+                <ComboBoxItem Content="Madhya Pradesh"/>
+                <ComboBoxItem Content="Maharashtra"/>
+                <ComboBoxItem Content="Manipur"/>
+                <ComboBoxItem Content="Meghalaya"/>
+                <ComboBoxItem Content="Mizoram"/>
+                <ComboBoxItem Content="Nagaland"/>
+                <ComboBoxItem Content="Orissa"/>
+                <ComboBoxItem Content="Puducherry"/>
+                <ComboBoxItem Content="Punjab"/>
+                <ComboBoxItem Content="Rajasthan"/>
+                <ComboBoxItem Content="Sikkim"/>
+                <ComboBoxItem Content="Tamil Nadu"/>
+                <ComboBoxItem Content="Tripura"/>
+                <ComboBoxItem Content="Uttar Pradesh"/>
+                <ComboBoxItem Content="Uttarakhand"/>
+                <ComboBoxItem Content="West Bengal"/>
+            </ComboBox>
+            <TextBox x:Name="b7" Margin="25,375,0,0" HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" VerticalAlignment="Top" Width="131" KeyboardNavigation.TabIndex="6"/>
+            <PasswordBox x:Name="b8" Margin="25,425,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="131" Height="24" KeyboardNavigation.TabIndex="7"/>
+
+        </Grid>
+        <Grid HorizontalAlignment="Center" Height="465" Margin="80,10,371,61" VerticalAlignment="Center" Width="150">
+            <Label Content="First Name" HorizontalAlignment="Left" Margin="40,24,0,0" VerticalAlignment="Top" Height="32" Width="115" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+            <Label Content="Last Name" HorizontalAlignment="Left" Margin="40,74,0,0" VerticalAlignment="Top" Height="32" Width="115" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+            <Label Content="Address" HorizontalAlignment="Left" Margin="40,124,0,0" VerticalAlignment="Top" Height="32" Width="115" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+            <Label Content="Phone No." HorizontalAlignment="Left" Margin="40,220,0,0" VerticalAlignment="Top" Height="32" Width="115" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+            <Label Content="City" HorizontalAlignment="Left" Margin="40,270,0,0" VerticalAlignment="Top" Height="32" Width="115" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+            <Label Content="State" HorizontalAlignment="Left" Margin="40,320,0,0" VerticalAlignment="Top" Height="32" Width="115" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+            <Label Content="User Name" HorizontalAlignment="Left" Margin="40,370,0,0" VerticalAlignment="Top" Height="32" Width="115" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+            <Label Content="Password" HorizontalAlignment="Left" Margin="40,420,0,0" VerticalAlignment="Top" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Width="115" Height="32"/>
+        </Grid>
+        <Button Content="Sign Up" HorizontalAlignment="Center" Margin="255,480,256,26" VerticalAlignment="Center" Width="90" Height="30" Click="Button_Click" BorderThickness="0.2">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="White" Offset="0"/>
+                    <GradientStop Color="#FFA0D0DC" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+    </Grid>
+</Window>
